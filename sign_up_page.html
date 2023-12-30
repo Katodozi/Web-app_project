@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h1>Welcome User!!</h1>
+            <div class="input-box">
+                <input type="email" placeholder="E-mail" required>
+                <i class='bx bx-envelope'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>
+                <i class='bx bx-lock'></i>
+            </div>
+            
+            <div class="Gender">
+                <fieldset>
+
+                    <legend>Gender</legend>
+                    <p>Male<input type="radio" name="gender" id="male" required>
+                        Female<input type="radio" name="gender" id="female" required>
+                        Other<input type="radio" name="gender" id="female" required>
+                    </p>
+                </fieldset>
+            </div>
+            <div class="height-weight">
+                <input type="number" placeholder="Age" required>
+                <i class='bx bx-chevron-down'></i>
+            </div>
+            <div class="height-weight">
+                <input type="number" placeholder="Height (feet)" required>
+                <i class='bx bx-chevron-down'></i>
+                <input type="number" placeholder="Weight (kg)" required>
+                <i class='bx bx-chevron-down'></i>
+            </div>
+            <div class="help">
+                <p>need help?
+                    <a href="#">Help</a>
+                </p>
+            </div>
+            <div class="register">
+                <button type="submit">Register</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
